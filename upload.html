@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Upload File Request Page</title>
+</head>
+<body>
+	<!-- http://localhost:8080/hello -->
+	<!-- http://10.20.186.231:8080/chat/sessions/file/NTkxNTkwNWM0NWQ5YzRjZg== -->
+	<form method="POST" action="http://localhost:3001/upload " enctype="multipart/form-data">
+		
+		File to upload: <input type="file" name="file">
+		<br /><br />
+		
+		<input type="submit" value="Upload" /> <br /><br />Press here to upload the file!
+	</form>	
+
+<hr />
+<br />
+	<form method="POST" action="http://10.20.186.231:8080/chat/sessions/file/NTkxNTkwNWM0NWQ5YzRjZg==?param=teste2" >
+		
+		
+		
+		<input type="submit" value="send" /> <br /><br />Press here to just post!
+	</form>	
+</body>
+</html>
